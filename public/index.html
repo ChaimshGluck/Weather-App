@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./weather.css">
+    <script src="./weather.js"></script>
+</head>
+
+<body>
+    <div id="weather-container">
+        <h1>Weather App</h1>
+        <label for="city-name">Enter the name of your city</label>
+        <input id="city-name" type="text" name="city-name" placeholder="e.g., New York">
+        <button type="button" id="enter-button">Enter</button>
+        <button type="button" id="location-button">Use Current Location</button>
+        <div id="loading" style="display: none;">Loading...</div>
+        <div id="weather-output">
+            <div id="weather-section"></div>
+            <div id="forecast-section"></div>
+        </div>
+    </div>
+</body>
+
+</html>
